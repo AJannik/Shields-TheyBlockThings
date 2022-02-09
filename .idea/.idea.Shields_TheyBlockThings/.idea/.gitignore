@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Shields_TheyBlockThings.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Shields_TheyBlockThings\Shields_TheyBlockThings\.idea\.idea.Shields_TheyBlockThings\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
