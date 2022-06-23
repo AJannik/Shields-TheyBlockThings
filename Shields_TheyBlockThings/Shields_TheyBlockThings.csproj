@@ -32,7 +32,7 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="0Harmony, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="0Harmony, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\Bannerlord.Harmony\bin\Win64_Shipping_Client\0Harmony.dll</HintPath>
         </Reference>
         <Reference Include="System" />
