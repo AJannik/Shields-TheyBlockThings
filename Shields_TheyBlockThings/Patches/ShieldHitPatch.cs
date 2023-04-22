@@ -1,6 +1,5 @@
 using HarmonyLib;
 using TaleWorlds.Engine;
-using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
 namespace Shields_TheyBlockThings.Patches
@@ -38,27 +37,6 @@ namespace Shields_TheyBlockThings.Patches
             }
 
             return true;
-        }
-
-        [HarmonyPostfix]
-        [HarmonyPatch(typeof(Mission), "MissileHitCallback")]
-        private static void MissileHitCallbackPatch(ref int extraHitParticleIndex,
-            ref AttackCollisionData collisionData,
-            Vec3 missileStartingPosition,
-            Vec3 missilePosition,
-            Vec3 missileAngularVelocity,
-            Vec3 movementVelocity,
-            MatrixFrame attachGlobalFrame,
-            MatrixFrame affectedShieldGlobalFrame,
-            int numDamagedAgents,
-            Agent attacker,
-            Agent victim,
-            GameEntity hitEntity)
-        {
-            if (collisionData.CollidedWithShieldOnBack)
-            {
-                extraHitParticleIndex = -1;
-            }
         }
     }
 }
